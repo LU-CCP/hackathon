@@ -1,0 +1,126 @@
+{
+  "name": "create-react-app-redux-saga-classic",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/cypress": "5.0.1",
+    "@testing-library/jest-dom": "4.1.0",
+    "@testing-library/react": "9.3.0",
+    "@testing-library/react-hooks": "2.0.3",
+    "@types/jest": "24.0.18",
+    "cypress": "3.4.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.4.0",
+    "eslint-plugin-cypress": "2.7.0",
+    "eslint-plugin-eslint-comments": "3.1.2",
+    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-redux-saga": "1.1.1",
+    "husky": "3.0.8",
+    "lint-staged": "9.4.1",
+    "prettier": "1.18.2",
+    "pretty-quick": "1.11.1",
+    "react-scripts": "3.2.0",
+    "react-test-renderer": "16.10.2",
+    "serve": "11.2.0",
+    "typescript": "3.6.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.39",
+    "apisauce": "1.1.1",
+    "browser-beep": "^1.0.2",
+    "connected-react-router": "6.5.2",
+    "core-js": "3.2.1",
+    "history": "4.10.1",
+    "immer": "4.0.1",
+    "prop-types": "15.7.2",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-hook-form": "^4.5.5",
+    "react-redux": "7.1.1",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.4",
+    "redux-saga": "1.1.1",
+    "reduxsauce": "1.1.0",
+    "regenerator-runtime": "0.13.3",
+    "reselect": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:prod": "react-scripts build && serve -s build",
+    "e2e:open": "cypress open",
+    "e2e:run": "cypress run",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:check": "eslint --print-config . | eslint-config-prettier-check",
+    "pretty": "prettier --write **/*.{css,html,js,json,jsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/src/__tests__/__utils__/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.lagash.com/starters/create-react-app-redux-saga-classic"
+  },
+  "bugs": {
+    "email": "alejandroce@lagash.com",
+    "url": "https://gitlab.lagash.com/starters/create-react-app-redux-saga-classic/issues"
+  },
+  "author": {
+    "email": "alejandroce@lagash.com",
+    "name": "Alejandro Carrasco"
+  },
+  "contributors": [
+    {
+      "email": "artourg@lagash.com",
+      "name": "Artour Garaev"
+    },
+    {
+      "email": "erickl@lagash.com",
+      "name": "Erick Leal"
+    },
+    {
+      "email": "hernancv@lagash.com",
+      "name": "Hernán Candia"
+    },
+    {
+      "email": "johnyag@lagash.com",
+      "name": "‎Johny Aguayo"
+    },
+    {
+      "email": "marcost@lagash.com",
+      "name": "Marcos Torres"
+    },
+    {
+      "email": "nicolasc@lagash.com",
+      "name": "Nicolas Castano"
+    },
+    {
+      "email": "wladimirs@lagash.com",
+      "name": "Wladimir Soto"
+    }
+  ]
+}
